@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div id="greeting-section">
+      <h1 id="greeting-text"></h1>
+      <p id="clock"></p>
+      <p id="date-display"></p>
+    </div>
+    <div id="header-controls">
+      <form id="name-form">
+        <label for="name-input" class="visually-hidden">Your name</label>
+        <input id="name-input" type="text" maxlength="50" placeholder="Enter your name">
+        <button type="submit">Save</button>
+      </form>
+      <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    </div>
+  </header>
+
+  <main class="dashboard-grid">
+
+    <!-- Focus Timer card -->
+    <section class="card" id="timer-card" aria-labelledby="timer-heading">
+      <h2 id="timer-heading">Focus Timer</h2>
+
+      <p id="timer-display" aria-live="polite" aria-label="Time remaining">25:00</p>
+
+      <div class="timer-controls">
+        <button type="button" id="timer-start">Start</button>
+        <button type="button" id="timer-stop">Stop</button>
+        <button type="button" id="timer-reset">Reset</button>
+      </div>
+
+      <p id="timer-message" hidden>Time's Up!</p>
+
+      <div class="timer-duration">
+        <label for="timer-duration-input">Focus duration (minutes)</label>
+        <input id="timer-duration-input" type="number" min="1" max="120" value="25">
+        <button type="button" id="timer-duration-save">Save</button>
+        <p id="timer-duration-error" hidden></p>
+      </div>
+    </section>
+
+    <!-- To-Do List card -->
+    <section class="card" id="todo-card" aria-labelledby="todo-heading">
+      <h2 id="todo-heading">To-Do List</h2>
+
+      <form id="todo-form">
+        <label for="todo-input" class="visually-hidden">New task</label>
+        <input id="todo-input" type="text" maxlength="200" placeholder="Add a new task…">
+        <button type="submit">Add</button>
+      </form>
+      <p id="todo-error" hidden></p>
+
+      <div class="sort-controls">
+        <label for="sort-select">Sort by</label>
+        <select id="sort-select">
+          <option value="newest">Newest First</option>
+          <option value="oldest">Oldest First</option>
+          <option value="az">A–Z</option>
+          <option value="za">Z–A</option>
+          <option value="unfinished">Unfinished First</option>
+        </select>
+      </div>
+
+      <ul id="todo-list"></ul>
+    </section>
+
+    <!-- Quick Links card -->
+    <section class="card" id="links-card" aria-labelledby="links-heading">
+      <h2 id="links-heading">Quick Links</h2>
+
+      <form id="link-form">
+        <div class="form-field">
+          <label for="link-name-input">Link name</label>
+          <input id="link-name-input" type="text" maxlength="100" placeholder="e.g. GitHub">
+        </div>
+        <div class="form-field">
+          <label for="link-url-input">URL</label>
+          <input id="link-url-input" type="text" maxlength="2048" placeholder="e.g. github.com">
+        </div>
+        <button type="submit">Add Link</button>
+      </form>
+      <p id="link-error" hidden></p>
+
+      <ul id="links-list"></ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>Life Dashboard</p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

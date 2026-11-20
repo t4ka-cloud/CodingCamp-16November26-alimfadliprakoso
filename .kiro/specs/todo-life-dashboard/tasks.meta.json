@@ -1,0 +1,292 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 Create `index.html` with the full semantic HTML structure": [
+      {
+        "executionId": "abb64997-cfff-4f5d-a87d-7f4c94018672",
+        "chatSessionId": "sess_50a46f0e-8e1c-483c-b18e-8c89b0b67801",
+        "timestamp": 1795144697216
+      },
+      {
+        "executionId": "abb64997-cfff-4f5d-a87d-7f4c94018672",
+        "chatSessionId": "sess_50a46f0e-8e1c-483c-b18e-8c89b0b67801",
+        "timestamp": 1795144746732
+      }
+    ],
+    "1.2 Create `css/style.css` with design tokens and base resets": [
+      {
+        "executionId": "537c617a-ee25-45c5-9ac1-753169af4b58",
+        "chatSessionId": "sess_eaf71885-5987-4dec-9352-f7213c965f8b",
+        "timestamp": 1795144853774
+      },
+      {
+        "executionId": "537c617a-ee25-45c5-9ac1-753169af4b58",
+        "chatSessionId": "sess_eaf71885-5987-4dec-9352-f7213c965f8b",
+        "timestamp": 1795144888725
+      }
+    ],
+    "1.3 Create `js/app.js` skeleton with named section comments": [
+      {
+        "executionId": "5cb73975-d7bc-4d33-8c6a-f9ce6d8e275a",
+        "chatSessionId": "sess_5f7d4f0a-7fa9-4686-9601-16817213c479",
+        "timestamp": 1795144910017
+      },
+      {
+        "executionId": "5cb73975-d7bc-4d33-8c6a-f9ce6d8e275a",
+        "chatSessionId": "sess_5f7d4f0a-7fa9-4686-9601-16817213c479",
+        "timestamp": 1795144931110
+      }
+    ],
+    "1. Project scaffold": [
+      {
+        "executionId": "5cb73975-d7bc-4d33-8c6a-f9ce6d8e275a",
+        "chatSessionId": "sess_5f7d4f0a-7fa9-4686-9601-16817213c479",
+        "timestamp": 1795144931166
+      }
+    ],
+    "2. Storage helpers": [
+      {
+        "executionId": "b1c8dafb-9bd9-46e5-936c-c48038e25e17",
+        "chatSessionId": "sess_7d333cb3-d0af-4186-b67b-da58176493f5",
+        "timestamp": 1795145163510
+      },
+      {
+        "executionId": "b1c8dafb-9bd9-46e5-936c-c48038e25e17",
+        "chatSessionId": "sess_7d333cb3-d0af-4186-b67b-da58176493f5",
+        "timestamp": 1795145197736
+      }
+    ],
+    "3. Theme": [
+      {
+        "executionId": "0e3ac1cd-83aa-4137-927c-e64bcf46680d",
+        "chatSessionId": "sess_b03dfbbb-3594-4c24-9630-edbcd2ffe1a8",
+        "timestamp": 1795145247471
+      },
+      {
+        "executionId": "0e3ac1cd-83aa-4137-927c-e64bcf46680d",
+        "chatSessionId": "sess_b03dfbbb-3594-4c24-9630-edbcd2ffe1a8",
+        "timestamp": 1795145288563
+      }
+    ],
+    "4. Greeting & Clock": [
+      {
+        "executionId": "ecc50ab4-9010-48e5-9586-704239a42870",
+        "chatSessionId": "sess_db4a61f3-0f88-443d-adc8-1cbec43ebfc1",
+        "timestamp": 1795145333796
+      },
+      {
+        "executionId": "ecc50ab4-9010-48e5-9586-704239a42870",
+        "chatSessionId": "sess_db4a61f3-0f88-443d-adc8-1cbec43ebfc1",
+        "timestamp": 1795145366266
+      }
+    ],
+    "5.1 Implement `CustomName.init()` and the name-form submit handler": [
+      {
+        "executionId": "bdb33a21-e3c9-422e-a07e-b78bd59fb441",
+        "chatSessionId": "sess_7afcab7f-2a38-4253-a371-97e80132c770",
+        "timestamp": 1795145416318
+      },
+      {
+        "executionId": "bdb33a21-e3c9-422e-a07e-b78bd59fb441",
+        "chatSessionId": "sess_7afcab7f-2a38-4253-a371-97e80132c770",
+        "timestamp": 1795145436936
+      }
+    ],
+    "5. Custom Name": [
+      {
+        "executionId": "bdb33a21-e3c9-422e-a07e-b78bd59fb441",
+        "chatSessionId": "sess_7afcab7f-2a38-4253-a371-97e80132c770",
+        "timestamp": 1795145436995
+      }
+    ],
+    "6.1 Implement the timer state machine and display logic": [
+      {
+        "executionId": "0c58d4cf-e1e7-4312-99a8-89053a8b8f82",
+        "chatSessionId": "sess_59a61478-19cf-4392-83bf-f34a7af2e119",
+        "timestamp": 1795145481296
+      },
+      {
+        "executionId": "0c58d4cf-e1e7-4312-99a8-89053a8b8f82",
+        "chatSessionId": "sess_59a61478-19cf-4392-83bf-f34a7af2e119",
+        "timestamp": 1795145518861
+      }
+    ],
+    "6.2 Implement Start, Stop, and Reset button handlers": [
+      {
+        "executionId": "0c58d4cf-e1e7-4312-99a8-89053a8b8f82",
+        "chatSessionId": "sess_59a61478-19cf-4392-83bf-f34a7af2e119",
+        "timestamp": 1795145522743
+      },
+      {
+        "executionId": "0c58d4cf-e1e7-4312-99a8-89053a8b8f82",
+        "chatSessionId": "sess_59a61478-19cf-4392-83bf-f34a7af2e119",
+        "timestamp": 1795145562665
+      }
+    ],
+    "6.3 Implement \"Time's Up!\" side effect and duration-save handler": [
+      {
+        "executionId": "0c58d4cf-e1e7-4312-99a8-89053a8b8f82",
+        "chatSessionId": "sess_59a61478-19cf-4392-83bf-f34a7af2e119",
+        "timestamp": 1795145580607
+      },
+      {
+        "executionId": "0c58d4cf-e1e7-4312-99a8-89053a8b8f82",
+        "chatSessionId": "sess_59a61478-19cf-4392-83bf-f34a7af2e119",
+        "timestamp": 1795145621358
+      }
+    ],
+    "6. Focus Timer": [
+      {
+        "executionId": "0c58d4cf-e1e7-4312-99a8-89053a8b8f82",
+        "chatSessionId": "sess_59a61478-19cf-4392-83bf-f34a7af2e119",
+        "timestamp": 1795145621430
+      }
+    ],
+    "7. To-Do List": [
+      {
+        "executionId": "9181e4e9-8d26-4923-8c4d-88221fc1a2d9",
+        "chatSessionId": "sess_4bb5f015-3800-4087-96f4-b80d3fa58f7c",
+        "timestamp": 1795145676600
+      },
+      {
+        "executionId": "9181e4e9-8d26-4923-8c4d-88221fc1a2d9",
+        "chatSessionId": "sess_4bb5f015-3800-4087-96f4-b80d3fa58f7c",
+        "timestamp": 1795145935062
+      }
+    ],
+    "7.1 Implement the task data layer and `TodoList.render()`": [
+      {
+        "executionId": "9181e4e9-8d26-4923-8c4d-88221fc1a2d9",
+        "chatSessionId": "sess_4bb5f015-3800-4087-96f4-b80d3fa58f7c",
+        "timestamp": 1795145687932
+      },
+      {
+        "executionId": "9181e4e9-8d26-4923-8c4d-88221fc1a2d9",
+        "chatSessionId": "sess_4bb5f015-3800-4087-96f4-b80d3fa58f7c",
+        "timestamp": 1795145761221
+      }
+    ],
+    "7.2 Implement add-task form handler with validation": [
+      {
+        "executionId": "9181e4e9-8d26-4923-8c4d-88221fc1a2d9",
+        "chatSessionId": "sess_4bb5f015-3800-4087-96f4-b80d3fa58f7c",
+        "timestamp": 1795145765692
+      },
+      {
+        "executionId": "9181e4e9-8d26-4923-8c4d-88221fc1a2d9",
+        "chatSessionId": "sess_4bb5f015-3800-4087-96f4-b80d3fa58f7c",
+        "timestamp": 1795145818605
+      }
+    ],
+    "7.3 Implement event-delegated click handler on `#todo-list`": [
+      {
+        "executionId": "9181e4e9-8d26-4923-8c4d-88221fc1a2d9",
+        "chatSessionId": "sess_4bb5f015-3800-4087-96f4-b80d3fa58f7c",
+        "timestamp": 1795145822465
+      },
+      {
+        "executionId": "9181e4e9-8d26-4923-8c4d-88221fc1a2d9",
+        "chatSessionId": "sess_4bb5f015-3800-4087-96f4-b80d3fa58f7c",
+        "timestamp": 1795145868115
+      }
+    ],
+    "7.4 Implement inline edit mode": [
+      {
+        "executionId": "9181e4e9-8d26-4923-8c4d-88221fc1a2d9",
+        "chatSessionId": "sess_4bb5f015-3800-4087-96f4-b80d3fa58f7c",
+        "timestamp": 1795145871836
+      },
+      {
+        "executionId": "9181e4e9-8d26-4923-8c4d-88221fc1a2d9",
+        "chatSessionId": "sess_4bb5f015-3800-4087-96f4-b80d3fa58f7c",
+        "timestamp": 1795145935006
+      }
+    ],
+    "8.1 Implement the sort logic and `#sort-select` change handler": [
+      {
+        "executionId": "1fb65f46-70e1-4df0-81be-2c80b5b5cdb0",
+        "chatSessionId": "sess_a8c90139-d716-44fc-acfb-d6c25ea8b11c",
+        "timestamp": 1795146017484
+      },
+      {
+        "executionId": "1fb65f46-70e1-4df0-81be-2c80b5b5cdb0",
+        "chatSessionId": "sess_a8c90139-d716-44fc-acfb-d6c25ea8b11c",
+        "timestamp": 1795146085465
+      }
+    ],
+    "8. Task Sorting": [
+      {
+        "executionId": "1fb65f46-70e1-4df0-81be-2c80b5b5cdb0",
+        "chatSessionId": "sess_a8c90139-d716-44fc-acfb-d6c25ea8b11c",
+        "timestamp": 1795146085540
+      }
+    ],
+    "9. Quick Links": [
+      {
+        "executionId": "0e869187-e330-4372-ab22-a719126f141a",
+        "chatSessionId": "sess_3afca4a0-b5dd-4438-a127-04a092ddc7d7",
+        "timestamp": 1795146134936
+      },
+      {
+        "executionId": "0e869187-e330-4372-ab22-a719126f141a",
+        "chatSessionId": "sess_3afca4a0-b5dd-4438-a127-04a092ddc7d7",
+        "timestamp": 1795146195925
+      }
+    ],
+    "9.1 Implement the quick-links data layer and `QuickLinks.render()`": [
+      {
+        "executionId": "d7979c7a-f220-4684-b62f-a41373eaea65",
+        "chatSessionId": "sess_e9f5b661-1114-4dd1-b715-deb4f2d9d5ac",
+        "timestamp": 1795146263448
+      },
+      {
+        "executionId": "d7979c7a-f220-4684-b62f-a41373eaea65",
+        "chatSessionId": "sess_e9f5b661-1114-4dd1-b715-deb4f2d9d5ac",
+        "timestamp": 1795146304067
+      }
+    ],
+    "11.1 Implement the CSS grid layout for desktop and mobile": [
+      {
+        "executionId": "ba8fa951-349f-4008-b018-630daa2fba33",
+        "chatSessionId": "sess_5bbc1fb8-7ad6-4e65-84b5-13b4c8ecf068",
+        "timestamp": 1795147664002
+      },
+      {
+        "executionId": "ba8fa951-349f-4008-b018-630daa2fba33",
+        "chatSessionId": "sess_5bbc1fb8-7ad6-4e65-84b5-13b4c8ecf068",
+        "timestamp": 1795147775142
+      }
+    ],
+    "11.2 Apply typography, spacing, and color to all components": [
+      {
+        "executionId": "ba8fa951-349f-4008-b018-630daa2fba33",
+        "chatSessionId": "sess_5bbc1fb8-7ad6-4e65-84b5-13b4c8ecf068",
+        "timestamp": 1795147778916
+      },
+      {
+        "executionId": "ba8fa951-349f-4008-b018-630daa2fba33",
+        "chatSessionId": "sess_5bbc1fb8-7ad6-4e65-84b5-13b4c8ecf068",
+        "timestamp": 1795147961430
+      }
+    ],
+    "11.3 Verify and finalize focus indicators and keyboard navigation": [
+      {
+        "executionId": "ba8fa951-349f-4008-b018-630daa2fba33",
+        "chatSessionId": "sess_5bbc1fb8-7ad6-4e65-84b5-13b4c8ecf068",
+        "timestamp": 1795147966029
+      },
+      {
+        "executionId": "ba8fa951-349f-4008-b018-630daa2fba33",
+        "chatSessionId": "sess_5bbc1fb8-7ad6-4e65-84b5-13b4c8ecf068",
+        "timestamp": 1795148185133
+      }
+    ],
+    "11. Responsive layout and visual polish": [
+      {
+        "executionId": "ba8fa951-349f-4008-b018-630daa2fba33",
+        "chatSessionId": "sess_5bbc1fb8-7ad6-4e65-84b5-13b4c8ecf068",
+        "timestamp": 1795148185211
+      }
+    ]
+  }
+}
