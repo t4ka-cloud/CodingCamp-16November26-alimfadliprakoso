@@ -34,7 +34,7 @@ Build the dashboard incrementally as three files — `index.html`, `css/style.cs
     - _Requirements: 1.7_
 
 - [x] 2. Storage helpers
-  - [ ] 2.1 Implement `storageGet`, `storageSet`, and `storageRemove`
+  - [x] 2.1 Implement `storageGet`, `storageSet`, and `storageRemove`
     - `storageGet(key, defaultValue)`: wraps `localStorage.getItem` and `JSON.parse` in try/catch; returns `defaultValue` on any exception, missing key, or parse failure
     - `storageSet(key, value)`: wraps `JSON.stringify` and `localStorage.setItem` in try/catch; silently discards exceptions without propagating them
     - `storageRemove(key)`: wraps `localStorage.removeItem` in try/catch; silently discards exceptions
@@ -43,14 +43,14 @@ Build the dashboard incrementally as three files — `index.html`, `css/style.cs
     - _Requirements: 9.1, 9.2, 9.3, 9.4_
 
 - [x] 3. Theme
-  - [ ] 3.1 Implement `Theme.init()` and the toggle handler
+  - [x] 3.1 Implement `Theme.init()` and the toggle handler
     - `Theme.init()`: read `storageGet('tdld_theme', null)`; if null or not `'light'`/`'dark'`, read `window.matchMedia('(prefers-color-scheme: dark)').matches` to determine the default; set `document.documentElement.dataset.theme`
     - Attach a click listener on `#theme-toggle`: flip the current `dataset.theme` value between `'light'` and `'dark'`, then call `storageSet('tdld_theme', newTheme)`
     - `Theme.init()` is called first in the `DOMContentLoaded` handler so the theme is applied before any paint
     - _Requirements: 8.1, 8.2, 8.3, 8.4, 8.5_
 
 - [x] 4. Greeting & Clock
-  - [ ] 4.1 Implement `Greeting.init()` and `Greeting.tick()`
+  - [x] 4.1 Implement `Greeting.init()` and `Greeting.tick()`
     - `Greeting.tick()`: read `new Date()`, format `#clock` as HH:MM:SS (zero-padded, 24-hour), format `#date-display` as "Weekday, Month DD, YYYY" using `toLocaleDateString` options
     - Determine the time-of-day salutation from the hour: 05–11 → "Good Morning", 12–16 → "Good Afternoon", 17–20 → "Good Evening", 21–23 and 00–04 → "Good Night"
     - Read stored name via `storageGet('tdld_name', '')`, trim and cap to 50 characters; if non-empty, append ", {name}" to the salutation; write to `#greeting-text`
@@ -134,7 +134,7 @@ Build the dashboard incrementally as three files — `index.html`, `css/style.cs
     - `QuickLinks.init()`: call `QuickLinks.render()`
     - _Requirements: 7.3, 7.8, 7.9_
 
-  - [ ] 9.2 Implement add-link form handler with URL normalization and validation
+  - [x] 9.2 Implement add-link form handler with URL normalization and validation
     - Attach a `submit` listener on `#link-form`; read and trim `#link-name-input.value` and `#link-url-input.value`
     - Reject with inline error if name is empty (_Req 7.5_)
     - Reject with inline error if name > 100 chars or URL > 2048 chars (_Req 7.6_)
@@ -143,11 +143,11 @@ Build the dashboard incrementally as three files — `index.html`, `css/style.cs
     - On valid input: generate `id`, create `{ id, name, url }` object, push to `links`, call `QuickLinks.save()`, call `QuickLinks.render()`, clear the inputs and error
     - _Requirements: 7.1, 7.2, 7.4, 7.5, 7.6_
 
-  - [ ] 9.3 Implement event-delegated delete handler on `#links-list`
+  - [x] 9.3 Implement event-delegated delete handler on `#links-list`
     - Attach a single `click` listener on `#links-list`; route delete button clicks by `data-action="delete"` and `data-id`; filter the link out of `links`; call `QuickLinks.save()`; call `QuickLinks.render()`
     - _Requirements: 7.7_
 
-- [ ] 10. Checkpoint — verify the app is fully functional
+- [x] 10. Checkpoint — verify the app is fully functional
   - Open `index.html` directly in a browser; confirm all sections render, no console errors appear, all features from the Manual Test Checklist in design.md pass, and localStorage keys are written with the `tdld_` prefix.
   - Ask the user if any behavior needs adjustment before proceeding to visual polish.
 
@@ -170,7 +170,7 @@ Build the dashboard incrementally as three files — `index.html`, `css/style.cs
     - Confirm text-to-background contrast ratio is at least 4.5:1 for body text in both light and dark themes
     - _Requirements: 1.6, 10.5_
 
-- [ ] 12. Final checkpoint — Ensure all tests pass
+- [x] 12. Final checkpoint — Ensure all tests pass
   - Walk through the complete Manual Test Checklist in `design.md` for both light and dark themes and at desktop (≥768 px) and mobile (360 px) viewport widths.
   - Ensure all tests pass, ask the user if questions arise.
 
